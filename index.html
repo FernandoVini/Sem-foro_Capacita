@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Semaforo</title>
+</head>
+<body>
+    <h1>+-----------------------------+
+| SEMÁFORO INTELIGENTE |
++-----------------------------+
+</h1>
+<button  class="button" id="bt1" onclick="ReduzTempo()">PEDIR PARA ATRAVESSAR</button>
+<br>
+<br>
+<div id="box">
+
+    <div >
+        <div class="led" id="red"></div>
+        <div class="led" id="yellow"></div>
+        <div class="led" id="green"></div>
+    </div>
+    <div id="telas">
+        <div id="contador">
+            <p class="cont"></p>    
+        </div>
+        <br>
+        <div id="stat">
+            <p class="status">Status:</p>
+        </div>
+        
+    </div>
+     
+</div>
+
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

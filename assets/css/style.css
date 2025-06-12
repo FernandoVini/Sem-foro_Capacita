@@ -1,0 +1,68 @@
+.led{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 114, 114);
+    margin-top: 4px;
+    border-radius: 1000px;
+}
+#red{
+    background-color: rgb(80, 24, 24);
+}
+#yellow{
+    background-color: rgb(75, 71, 17);
+}
+#green{
+    background-color: rgb(22, 49, 15);
+}
+#box{
+    display: flex;
+    position: absolute;
+    border-radius: 40px;
+    background-color: rgb(17, 16, 16);
+    padding: 2rem;
+    gap: 2rem;
+}
+#contador{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(148, 198, 241);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+}
+#telas{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    display: table-column-group;
+    justify-items: center;
+    align-items: center;
+    
+}
+.cont{
+    margin: 0;
+    padding-top: 10%;
+    font-size: 150px;
+    color: rgb(87, 185, 153);
+}
+#stat{
+    width: 80%;
+    height: 20%;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.button{
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(37, 168, 219);
+    border: none;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 5px;
+}
+
+
