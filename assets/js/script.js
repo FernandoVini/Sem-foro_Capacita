@@ -32,10 +32,10 @@ function ReduzTempo() {
 
     if (valor_tempo > 1 && document.querySelector('.status').innerHTML.includes('Parados')) {
 
-        color_bt.style.backgroundColor = "rgb(15, 71, 94)"
+        color_bt.style.backgroundColor = "rgb(9, 65, 21)"
 
         setTimeout(function(){
-            color_bt.style.backgroundColor = 'rgb(37, 168, 219)'
+            color_bt.style.backgroundColor = 'rgb(75, 77, 74)'
         }, 500)
 
         valor_tempo = valor_tempo - 1;
